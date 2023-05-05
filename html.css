@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 2rem;
+}
+
+.second {
+    display: none;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 0.6rem 2.5rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.up,
+.down {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    height: 30px;
+}
+
+.up p,
+.down p {
+    font-weight: bold;
+    width: 3000px;
+}
+
+.search {
+    position: relative;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 0.5rem;
+}
+
+#search {
+    width: 80%;
+    border: none;
+    outline: none;
+    padding: 0 0 0 2rem;
+}
+
+input::placeholder {
+    font-weight: 500;
+    color: black;
+}
+
+.search-icon {
+    position: absolute;
+    top: 15%;
+}
+
+.postal-data {
+    border: 2px solid #000;
+    margin-top: 1rem;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+
+}
+
+.item {
+    border: 2px solid #000;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.Map {
+    width: 100%;
+    height: 250px;
+    margin-top: 1.5rem;
+}
+
+iframe {
+    width: 80%;
+    height: 80%;
+}
+
+.details p {
+    font-weight: bold;
+}
